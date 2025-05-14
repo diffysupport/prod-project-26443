@@ -1,0 +1,64 @@
+basic:
+    name: Brainloop
+    environments:
+        production: 'https://www.brainloop.com/en-gb/'
+        staging: 'https://www.brainloop.com/en-gb/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - solutions/brainloop-meetingsuite
+        - solutions/brainloop-boardroom
+        - solutions/brainloop-dealroom
+        - solutions/brainloop-collaborationroom
+        - use-cases
+        - it-security
+        - modern-governance
+        - blog
+        - downloads
+        - contact-us
+        - free-trial-2
+        - criteria-catalogue-bsi-c5-secure-cloud-computing-for-organisations
+        - brainloop-solutions
+        - brainloops-ix-meetingsuite-bsi-c5-certification
+        - focus-on-security-a-closer-look-at-the-brainloop-security-concept
+        - brainloop-data-security-during-the-covid-19-crisis
+        - ip-management-protect-your-trade-secrets-and-intellectual-property
+        - cryptic-messages-an-abc-of-encryption
+        - about-us
+        - job-list
+        - our-customers
+        - legal-notice
+        - picture-credits
+        - services-support
+        - privacy-notice
+        - securityincident
+        - brainloop-blog
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
